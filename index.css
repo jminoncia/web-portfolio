@@ -84,26 +84,26 @@ a.nav-link {
 
 @media (max-width: 768px) {
   .landing-page-header {
-    font-size: 50px;
+    font-size: 40px;
   }
   #landing-page-sub-header {
-    font-size: 50px;
+    font-size: 40px;
   }
   .lh-sm {
     line-height: 1.1 !important;
   }
 
   img#profile-image {
-    padding-left: 60px;
-    padding-right: 60px;
+    padding-left: 85px;
+    padding-right: 85px;
   }
 }
 
-@media (max-width: 391px) {
+/* @media (max-width: 391px) {
   .landing-page-header {
     font-size: 40px;
   }
   #landing-page-sub-header {
     font-size: 40px;
   }
-}
+} */
