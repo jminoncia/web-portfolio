@@ -1,0 +1,109 @@
+html {
+  box-sizing: border-box;
+}
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+}
+
+.thin-heading {
+  font-weight: 300;
+  font-size: 40px;
+}
+
+.contact-form .form-control {
+  border-radius: 1rem;
+}
+.contact-image {
+  text-align: center;
+}
+.contact-image img {
+  border-radius: 6rem;
+  width: 11%;
+  margin-top: -3%;
+  transform: rotate(29deg);
+}
+
+.contact-form h3 {
+  margin-bottom: 8%;
+  margin-top: -10%;
+  text-align: center;
+  color: #0062cc;
+}
+
+.contact-form button.btn.btn-primary {
+  width: 200px;
+}
+
+.btnContactSubmit {
+  background-color: #e94560;
+  width: 200px;
+  color: #fff;
+}
+
+.btnContactSubmit:hover {
+  color: #e94560 !important;
+  background-color: #fff !important;
+  border-color: #e94560 !important;
+}
+
+.icon-map:before {
+  content: "\f279";
+}
+
+li.list-group-item.border-0 {
+  background-color: rgba(var(--bs-light-rgb), var(--bs-bg-opacity)) !important;
+}
+
+.main-text {
+  color: #e94560 !important;
+}
+
+.main-text:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.landing-page-header {
+  font-size: 70px;
+}
+
+#landing-page-sub-header {
+  font-size: 70px;
+  color: #e94560;
+}
+
+a.nav-link {
+  color: #212529;
+}
+
+@media (max-width: 768px) {
+  .landing-page-header {
+    font-size: 50px;
+  }
+  #landing-page-sub-header {
+    font-size: 50px;
+  }
+  .lh-sm {
+    line-height: 1.1 !important;
+  }
+
+  img#profile-image {
+    padding-left: 60px;
+    padding-right: 60px;
+  }
+}
+
+@media (max-width: 391px) {
+  .landing-page-header {
+    font-size: 40px;
+  }
+  #landing-page-sub-header {
+    font-size: 40px;
+  }
+}
